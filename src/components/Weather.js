@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { 
-    Heading,
+    // Heading,
     Text,
     Input, 
     InputGroup, 
