@@ -84,7 +84,7 @@ class Weather extends React.Component{
                     
                 </InputGroup>
                 
-                <Text fontSize="24px">Weather Forecast For <b>{this.state.city}</b> </Text>
+                <Text fontSize="20px">Weather Forecast For <b>{this.state.city}</b> </Text>
                 <Text fontWeight="600">{ moment().format('h:mm a ,MMMM Do YYYY') }</Text>
                 <br/>
                 <Text>Temperature:<b> {data.main.temp}</b> &#8451;</Text>
